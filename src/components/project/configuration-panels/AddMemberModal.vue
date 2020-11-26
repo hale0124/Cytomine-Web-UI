@@ -36,7 +36,7 @@
 <script>
 import {get} from '@/utils/store-helpers';
 
-import {UserCollection} from 'cytomine-client';
+import {UserCollection} from '@hale0124/cytomine-client';
 import DomainTagInput from '@/components/utils/DomainTagInput';
 import CytomineModal from '@/components/utils/CytomineModal';
 import {fullName} from '@/utils/user-utils.js';

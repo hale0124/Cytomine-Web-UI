@@ -222,7 +222,7 @@ import CalibrationModal from './CalibrationModal';
 import ImageMetadataModal from './ImageMetadataModal';
 import ImageStatus from './ImageStatus';
 import RenameModal from '@/components/utils/RenameModal';
-import {ImageInstance} from 'cytomine-client';
+import {ImageInstance} from '@hale0124/cytomine-client';
 
 import vendorFromMime from '@/utils/vendor';
 

@@ -43,7 +43,7 @@
 <script>
 import {get} from '@/utils/store-helpers';
 
-import {Property, PropertyCollection} from 'cytomine-client';
+import {Property, PropertyCollection} from '@hale0124/cytomine-client';
 import constants from '@/utils/constants.js';
 import {getWildcardRegexp} from '@/utils/string-utils';
 

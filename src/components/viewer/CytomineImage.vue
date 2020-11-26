@@ -206,7 +206,7 @@ import {KeyboardPan, KeyboardZoom} from 'ol/interaction';
 import {noModifierKeys, targetNotEditable} from 'ol/events/condition';
 import WKT from 'ol/format/WKT';
 
-import {ImageConsultation, Annotation, AnnotationType, UserPosition} from 'cytomine-client';
+import {ImageConsultation, Annotation, AnnotationType, UserPosition} from '@hale0124/cytomine-client';
 
 import {constLib, operation} from '@/utils/color-manipulation.js';
 

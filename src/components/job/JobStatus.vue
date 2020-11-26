@@ -20,7 +20,7 @@
 </template>
 
 <script>
-import {JobStatus} from 'cytomine-client';
+import {JobStatus} from '@hale0124/cytomine-client';
 import jobStatusMapping from '@/utils/job-utils';
 
 export default {

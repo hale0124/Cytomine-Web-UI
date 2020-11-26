@@ -14,7 +14,7 @@
 * limitations under the License.
 */
 
-import {ImageInstance, AbstractImage, AnnotationType} from 'cytomine-client';
+import {ImageInstance, AbstractImage, AnnotationType} from '@hale0124/cytomine-client';
 
 import constants from '@/utils/constants';
 

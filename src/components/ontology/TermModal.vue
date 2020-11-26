@@ -35,7 +35,7 @@
 </template>
 
 <script>
-import {Term} from 'cytomine-client';
+import {Term} from '@hale0124/cytomine-client';
 import {Sketch} from 'vue-color';
 import CytomineModalCard from '@/components/utils/CytomineModalCard';
 

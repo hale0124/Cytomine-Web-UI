@@ -40,7 +40,7 @@
 
 <script>
 
-import {Tag, TagDomainAssociation, TagDomainAssociationCollection} from 'cytomine-client';
+import {Tag, TagDomainAssociation, TagDomainAssociationCollection} from '@hale0124/cytomine-client';
 import DomainTagInput from '@/components/utils/DomainTagInput';
 import AddTagDomainAssociationModal from '@/components/tag/AddTagDomainAssociationModal';
 

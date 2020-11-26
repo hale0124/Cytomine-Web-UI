@@ -252,7 +252,7 @@ import CytomineTable from '@/components/utils/CytomineTable';
 import ProjectDetails from '@/components/project/ProjectDetails';
 import ImageDetails from '@/components/image/ImageDetails';
 import CytomineMultiselect from '@/components/form/CytomineMultiselect';
-import {ImageInstanceCollection, ProjectCollection, TagCollection} from 'cytomine-client';
+import {ImageInstanceCollection, ProjectCollection, TagCollection} from '@hale0124/cytomine-client';
 import {getWildcardRegexp} from '@/utils/string-utils';
 import IconProjectMemberRole from '@/components/icons/IconProjectMemberRole';
 

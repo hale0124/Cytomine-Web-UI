@@ -30,7 +30,7 @@
 <script>
 import {get} from '@/utils/store-helpers';
 
-import {ImageInstanceCollection} from 'cytomine-client';
+import {ImageInstanceCollection} from '@hale0124/cytomine-client';
 
 import ImagePreview from './ImagePreview';
 

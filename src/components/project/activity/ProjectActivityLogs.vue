@@ -32,7 +32,7 @@
 </template>
 
 <script>
-import {UserJobCollection} from 'cytomine-client';
+import {UserJobCollection} from '@hale0124/cytomine-client';
 
 import {get} from '@/utils/store-helpers';
 import {fullName} from '@/utils/user-utils.js';

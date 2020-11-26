@@ -29,7 +29,7 @@
 </template>
 
 <script>
-import {UploadedFileStatus} from 'cytomine-client';
+import {UploadedFileStatus} from '@hale0124/cytomine-client';
 
 export default {
   name: 'uploaded-file-status',

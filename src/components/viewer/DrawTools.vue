@@ -289,7 +289,7 @@ import IconLineFreeHand from '@/components/icons/IconLineFreeHand';
 
 import WKT from 'ol/format/WKT';
 
-import {Cytomine, Annotation, AnnotationType} from 'cytomine-client';
+import {Cytomine, Annotation, AnnotationType} from '@hale0124/cytomine-client';
 import {Action, updateTermProperties} from '@/utils/annotation-utils.js';
 
 export default {

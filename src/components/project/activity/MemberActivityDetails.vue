@@ -247,7 +247,7 @@
 import {get} from '@/utils/store-helpers';
 
 import {fullName} from '@/utils/user-utils.js';
-import {User, ProjectConnectionCollection, ImageConsultationCollection} from 'cytomine-client';
+import {User, ProjectConnectionCollection, ImageConsultationCollection} from '@hale0124/cytomine-client';
 
 import CytomineDatepicker from '@/components/form/CytomineDatepicker';
 import ProjectConnectionDetails from '@/components/project/ProjectConnectionDetails';

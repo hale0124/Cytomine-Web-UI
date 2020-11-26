@@ -52,6 +52,19 @@
         :password-reveal="field === 'password'"
       />
     </b-field>
+    <b-field
+      :key="'lifetime'"
+      :label="$t('lifetime')"
+      horizontal
+      :type="{'is-danger': errors.has('lifetime')}"
+      :message="errors.first('lifetime')"
+    >
+      <b-input
+        v-model="internalUser['lifetime']"
+        :name="'lifetime'"
+        v-validate="'required'"
+        :type="'text'"
+      />    
 
     <b-field :label="$t('role')" horizontal>
       <b-select v-model="selectedRole">
@@ -82,7 +95,7 @@
 </template>
 
 <script>
-import {User, RoleCollection} from 'cytomine-client';
+import {User, RoleCollection} from '@hale0124/cytomine-client';
 import {rolesMapping} from '@/utils/role-utils';
 const defaultRole = 'ROLE_GUEST';
 const defaultLanguage = {value: 'EN', name:'English'};

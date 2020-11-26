@@ -33,7 +33,7 @@
 </template>
 
 <script>
-import {Tag} from 'cytomine-client';
+import {Tag} from '@hale0124/cytomine-client';
 import CytomineModal from '@/components/utils/CytomineModal';
 
 export default {

@@ -34,7 +34,7 @@
 
 <script>
 import WKT from 'ol/format/WKT';
-import {AnnotationCollection} from 'cytomine-client';
+import {AnnotationCollection} from '@hale0124/cytomine-client';
 import {annotBelongsToLayer} from '@/utils/annotation-utils';
 
 export default {

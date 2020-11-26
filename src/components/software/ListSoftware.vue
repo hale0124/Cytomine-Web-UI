@@ -171,7 +171,7 @@ import SoftwareDetails from '@/components/software/SoftwareDetails';
 import {get, sync, syncFilter, syncBoundsFilter} from '@/utils/store-helpers';
 import {getWildcardRegexp} from '@/utils/string-utils';
 
-import {SoftwareCollection} from 'cytomine-client';
+import {SoftwareCollection} from '@hale0124/cytomine-client';
 
 
 export default {

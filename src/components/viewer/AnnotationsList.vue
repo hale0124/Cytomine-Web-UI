@@ -97,7 +97,7 @@
 </template>
 
 <script>
-import {UserCollection, UserJobCollection} from 'cytomine-client';
+import {UserCollection, UserJobCollection} from '@hale0124/cytomine-client';
 
 import CytomineTerm from '@/components/ontology/CytomineTerm';
 import CytomineMultiselect from '@/components/form/CytomineMultiselect';

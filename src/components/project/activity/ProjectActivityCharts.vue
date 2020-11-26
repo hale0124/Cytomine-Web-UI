@@ -295,7 +295,7 @@ import AnnotatedImagesByContributorChart from '@/components/charts/AnnotatedImag
 import ActivityOverviewChart from '@/components/charts/ActivityOverviewChart.js';
 import OntologyTreeMultiselect from '@/components/ontology/OntologyTreeMultiselect';
 
-import {AnnotationType} from 'cytomine-client';
+import {AnnotationType} from '@hale0124/cytomine-client';
 
 export default {
   name: 'project-activity-charts',

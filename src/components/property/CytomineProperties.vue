@@ -57,7 +57,7 @@
 </template>
 
 <script>
-import {Property, PropertyCollection} from 'cytomine-client';
+import {Property, PropertyCollection} from '@hale0124/cytomine-client';
 import constants from '@/utils/constants.js';
 
 export default {

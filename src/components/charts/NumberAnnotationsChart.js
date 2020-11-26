@@ -16,7 +16,7 @@
 
 import {Bar} from 'vue-chartjs';
 
-import {AnnotationType} from 'cytomine-client';
+import {AnnotationType} from '@hale0124/cytomine-client';
 
 export default {
   name: 'number-annotations-chart',

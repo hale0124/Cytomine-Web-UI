@@ -95,7 +95,7 @@
 
 <script>
 import {get} from '@/utils/store-helpers';
-import {ProjectCollection, TrustedSource} from 'cytomine-client';
+import {ProjectCollection, TrustedSource} from '@hale0124/cytomine-client';
 
 import RenameModal from '@/components/utils/RenameModal';
 import CytomineDescription from '@/components/description/CytomineDescription';

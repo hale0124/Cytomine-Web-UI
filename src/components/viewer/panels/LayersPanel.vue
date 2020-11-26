@@ -73,7 +73,7 @@
 import {get} from '@/utils/store-helpers';
 
 import {fullName} from '@/utils/user-utils.js';
-import {ProjectDefaultLayerCollection} from 'cytomine-client';
+import {ProjectDefaultLayerCollection} from '@hale0124/cytomine-client';
 
 export default {
   name: 'layers-panel',

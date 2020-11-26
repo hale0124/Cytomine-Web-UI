@@ -15,7 +15,7 @@
 */
 
 import {defaultColors} from '@/utils/style-utils.js';
-import {PropertyCollection} from 'cytomine-client';
+import {PropertyCollection} from '@hale0124/cytomine-client';
 import constants from '@/utils/constants';
 
 export default {

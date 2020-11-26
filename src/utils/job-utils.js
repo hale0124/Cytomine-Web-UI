@@ -14,7 +14,7 @@
 * limitations under the License.
 */
 
-import {JobStatus} from 'cytomine-client';
+import {JobStatus} from '@hale0124/cytomine-client';
 
 const jobStatusMapping = Object.freeze({
   [JobStatus.RUNNING]: {

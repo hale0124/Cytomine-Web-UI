@@ -15,7 +15,7 @@
 */
 
 import {Bar} from 'vue-chartjs';
-import {ProjectConnectionCollection} from 'cytomine-client';
+import {ProjectConnectionCollection} from '@hale0124/cytomine-client';
 import moment from 'moment';
 
 export default {

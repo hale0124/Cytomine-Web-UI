@@ -67,7 +67,7 @@
 </template>
 
 <script>
-import {TrustedSourceCollection} from 'cytomine-client';
+import {TrustedSourceCollection} from '@hale0124/cytomine-client';
 import TrustedSourceModal from './TrustedSourceModal';
 import {getWildcardRegexp} from '@/utils/string-utils';
 import SoftwareSource from '@/components/software/SoftwareSource';

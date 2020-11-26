@@ -124,7 +124,7 @@ import CytomineTable from '@/components/utils/CytomineTable';
 import CytomineMultiselect from '@/components/form/CytomineMultiselect';
 import AddMemberModal from './AddMemberModal';
 import {fullName} from '@/utils/user-utils.js';
-import {Cytomine, UserCollection, ProjectRepresentative} from 'cytomine-client';
+import {Cytomine, UserCollection, ProjectRepresentative} from '@hale0124/cytomine-client';
 import IconProjectMemberRole from '@/components/icons/IconProjectMemberRole';
 
 export default {

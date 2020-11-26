@@ -182,7 +182,7 @@
 <script>
 import {get} from '@/utils/store-helpers';
 
-import {Job, JobStatus, JobDataCollection, Task} from 'cytomine-client';
+import {Job, JobStatus, JobDataCollection, Task} from '@hale0124/cytomine-client';
 import filesize from 'filesize';
 import CytomineModal from '@/components/utils/CytomineModal';
 import CytomineTask from '@/components/utils/CytomineTask';

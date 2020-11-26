@@ -53,7 +53,7 @@ import {get} from '@/utils/store-helpers';
 
 import AnnotationPreview from './AnnotationPreview';
 
-import {AnnotationCollection} from 'cytomine-client';
+import {AnnotationCollection} from '@hale0124/cytomine-client';
 
 export default {
   name: 'list-annotations-by-term',

@@ -35,7 +35,7 @@
 
 <script>
 
-import {TagCollection} from 'cytomine-client';
+import {TagCollection} from '@hale0124/cytomine-client';
 import DomainTagInput from '@/components/utils/DomainTagInput';
 import CytomineModalCard from '@/components/utils/CytomineModalCard';
 

@@ -75,7 +75,7 @@
 <script>
 import {get} from '@/utils/store-helpers';
 
-import {Cytomine, Description} from 'cytomine-client';
+import {Cytomine, Description} from '@hale0124/cytomine-client';
 import CytomineMultiselect from '@/components/form/CytomineMultiselect';
 import CytomineTerm from '@/components/ontology/CytomineTerm';
 

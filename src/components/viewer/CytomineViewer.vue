@@ -53,7 +53,7 @@ import viewerModuleModel from '@/store/modules/project_modules/viewer';
 import constants from '@/utils/constants.js';
 import shortcuts from '@/utils/shortcuts.js';
 
-import {ImageInstance} from 'cytomine-client';
+import {ImageInstance} from '@hale0124/cytomine-client';
 
 export default {
   name: 'cytomine-viewer',

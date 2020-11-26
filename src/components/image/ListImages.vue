@@ -250,7 +250,7 @@ import ImageDetails from './ImageDetails';
 import AddImageModal from './AddImageModal';
 import vendorFromMime from '@/utils/vendor';
 
-import {ImageInstanceCollection, TagCollection} from 'cytomine-client';
+import {ImageInstanceCollection, TagCollection} from '@hale0124/cytomine-client';
 
 // store options to use with store helpers to target projects/currentProject/listImages module
 const storeOptions = {rootModuleProp: 'storeModule'};

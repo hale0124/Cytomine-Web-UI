@@ -252,7 +252,7 @@ import OntologyTreeMultiselect from '@/components/ontology/OntologyTreeMultisele
 
 import ListAnnotationsByTerm from './ListAnnotationsByTerm';
 
-import {ImageInstanceCollection, UserCollection, UserJobCollection, AnnotationCollection, TagCollection} from 'cytomine-client';
+import {ImageInstanceCollection, UserCollection, UserJobCollection, AnnotationCollection, TagCollection} from '@hale0124/cytomine-client';
 
 import {fullName} from '@/utils/user-utils.js';
 import {defaultColors} from '@/utils/style-utils.js';

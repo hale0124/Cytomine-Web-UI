@@ -63,7 +63,7 @@
 <script>
 import {get} from '@/utils/store-helpers';
 import CytomineSlider from '@/components/form/CytomineSlider';
-import {ImageFilterProjectCollection} from 'cytomine-client';
+import {ImageFilterProjectCollection} from '@hale0124/cytomine-client';
 
 export default {
   name: 'color-manipulation',

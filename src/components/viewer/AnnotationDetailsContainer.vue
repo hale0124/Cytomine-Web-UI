@@ -59,7 +59,7 @@
 import VueDraggableResizable from 'vue-draggable-resizable';
 
 import AnnotationDetails from '@/components/annotations/AnnotationDetails';
-import {UserCollection, UserJobCollection} from 'cytomine-client';
+import {UserCollection, UserJobCollection} from '@hale0124/cytomine-client';
 import {fullName} from '@/utils/user-utils.js';
 import {Action, updateTermProperties} from '@/utils/annotation-utils.js';
 

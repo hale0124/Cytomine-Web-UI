@@ -25,7 +25,7 @@
 
 <script>
 import CytomineQuillEditor from '@/components/form/CytomineQuillEditor';
-import {Configuration} from 'cytomine-client';
+import {Configuration} from '@hale0124/cytomine-client';
 import constants from '@/utils/constants.js';
 
 export default {

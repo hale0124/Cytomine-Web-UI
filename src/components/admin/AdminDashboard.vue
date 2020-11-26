@@ -145,7 +145,7 @@
 </template>
 
 <script>
-import {Cytomine} from 'cytomine-client';
+import {Cytomine} from '@hale0124/cytomine-client';
 import LastConnectionsChart from '@/components/charts/LastConnectionsChart.js';
 import moment from 'moment';
 

@@ -38,7 +38,7 @@ import {get} from '@/utils/store-helpers';
 import Polygon, {fromCircle as polygonFromCircle} from 'ol/geom/Polygon';
 import WKT from 'ol/format/WKT';
 
-import {Annotation, AnnotationType} from 'cytomine-client';
+import {Annotation, AnnotationType} from '@hale0124/cytomine-client';
 import {Action} from '@/utils/annotation-utils.js';
 
 export default {

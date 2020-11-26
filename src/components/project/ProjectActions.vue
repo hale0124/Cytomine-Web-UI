@@ -85,7 +85,7 @@
 </template>
 
 <script>
-import {OntologyCollection} from 'cytomine-client';
+import {OntologyCollection} from '@hale0124/cytomine-client';
 import CytomineModal from '@/components/utils/CytomineModal';
 import RenameModal from '@/components/utils/RenameModal';
 

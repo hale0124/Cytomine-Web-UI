@@ -14,7 +14,7 @@
 * limitations under the License.
 */
 
-import {Cytomine, Project, ProjectConnection, Ontology, AnnotationType, UserCollection, ProjectMemberRole} from 'cytomine-client';
+import {Cytomine, Project, ProjectConnection, Ontology, AnnotationType, UserCollection, ProjectMemberRole} from '@hale0124/cytomine-client';
 import {fullName} from '@/utils/user-utils.js';
 import {getAllTerms} from '@/utils/ontology-utils';
 

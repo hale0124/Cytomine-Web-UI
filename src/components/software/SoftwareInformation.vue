@@ -119,7 +119,7 @@
 <script>
 import {get} from '@/utils/store-helpers';
 
-import {Software, SoftwareParameterCollection, ProjectCollection} from 'cytomine-client';
+import {Software, SoftwareParameterCollection, ProjectCollection} from '@hale0124/cytomine-client';
 
 import CytomineDescription from '@/components/description/CytomineDescription';
 import CytomineProperties from '@/components/property/CytomineProperties';

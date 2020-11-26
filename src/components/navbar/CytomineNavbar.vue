@@ -108,7 +108,7 @@ import HotkeysModal from './HotkeysModal';
 import AboutCytomineModal from './AboutCytomineModal';
 import CytomineSearcher from '@/components/search/CytomineSearcher';
 
-import {Cytomine} from 'cytomine-client';
+import {Cytomine} from '@hale0124/cytomine-client';
 import {fullName} from '@/utils/user-utils.js';
 
 export default {

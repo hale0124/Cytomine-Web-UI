@@ -39,7 +39,7 @@
 </template>
 
 <script>
-import {Project} from 'cytomine-client';
+import {Project} from '@hale0124/cytomine-client';
 import moment from 'moment';
 import _ from 'lodash';
 

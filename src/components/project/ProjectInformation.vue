@@ -35,7 +35,7 @@
 import {get} from '@/utils/store-helpers';
 
 import ProjectDetails from './ProjectDetails';
-import {Project} from 'cytomine-client';
+import {Project} from '@hale0124/cytomine-client';
 
 export default {
   name: 'project-information',

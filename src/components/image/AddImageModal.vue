@@ -68,7 +68,7 @@
 
 <script>
 import {get} from '@/utils/store-helpers';
-import {AbstractImageCollection, ImageInstance} from 'cytomine-client';
+import {AbstractImageCollection, ImageInstance} from '@hale0124/cytomine-client';
 import CytomineModal from '@/components/utils/CytomineModal';
 import CytomineTable from '@/components/utils/CytomineTable';
 

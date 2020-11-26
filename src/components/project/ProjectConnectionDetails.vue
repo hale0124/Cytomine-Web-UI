@@ -53,7 +53,7 @@
 </template>
 
 <script>
-import {ImageConsultationCollection} from 'cytomine-client';
+import {ImageConsultationCollection} from '@hale0124/cytomine-client';
 import ImagePreview from '@/components/image/ImagePreview';
 
 export default {

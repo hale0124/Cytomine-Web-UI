@@ -203,7 +203,7 @@
 <script>
 import {get} from '@/utils/store-helpers';
 
-import {Cytomine, StorageCollection, ProjectCollection, UploadedFileCollection, UploadedFile, UploadedFileStatus} from 'cytomine-client';
+import {Cytomine, StorageCollection, ProjectCollection, UploadedFileCollection, UploadedFile, UploadedFileStatus} from '@hale0124/cytomine-client';
 import axios from 'axios';
 import filesize from 'filesize';
 import _ from 'lodash';

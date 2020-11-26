@@ -235,7 +235,7 @@ import AddProjectModal from './AddProjectModal';
 
 import {get, sync, syncBoundsFilter, syncMultiselectFilter} from '@/utils/store-helpers';
 
-import {ProjectCollection, OntologyCollection, TagCollection} from 'cytomine-client';
+import {ProjectCollection, OntologyCollection, TagCollection} from '@hale0124/cytomine-client';
 import IconProjectMemberRole from '@/components/icons/IconProjectMemberRole';
 export default {
   name: 'list-projects',

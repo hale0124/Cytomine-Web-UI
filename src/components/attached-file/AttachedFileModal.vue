@@ -48,7 +48,7 @@
 </template>
 
 <script>
-import {AttachedFile} from 'cytomine-client';
+import {AttachedFile} from '@hale0124/cytomine-client';
 import CytomineModalCard from '@/components/utils/CytomineModalCard';
 
 export default {

@@ -74,7 +74,7 @@
 
 <script>
 import {get} from '@/utils/store-helpers';
-import {SoftwareCollection, SoftwareProject, SoftwareProjectCollection} from 'cytomine-client';
+import {SoftwareCollection, SoftwareProject, SoftwareProjectCollection} from '@hale0124/cytomine-client';
 import {getWildcardRegexp} from '@/utils/string-utils';
 import SoftwareStatus from '@/components/software/SoftwareStatus';
 import BooleanItem from '@/components/utils/BooleanItem';

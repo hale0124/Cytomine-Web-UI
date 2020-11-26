@@ -60,7 +60,7 @@
 </template>
 
 <script>
-import {Cytomine} from 'cytomine-client';
+import {Cytomine} from '@hale0124/cytomine-client';
 
 export default {
   name: 'register',

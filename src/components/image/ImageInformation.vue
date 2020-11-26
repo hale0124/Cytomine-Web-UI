@@ -43,7 +43,7 @@
 import ImageName from './ImageName';
 import ImageDetails from './ImageDetails';
 
-import {ImageInstance} from 'cytomine-client';
+import {ImageInstance} from '@hale0124/cytomine-client';
 
 export default {
   name: 'image-information',

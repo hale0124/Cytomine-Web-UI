@@ -65,7 +65,7 @@
 import {get} from '@/utils/store-helpers';
 
 import ImageName from '@/components/image/ImageName';
-import {ImageInstanceCollection} from 'cytomine-client';
+import {ImageInstanceCollection} from '@hale0124/cytomine-client';
 import {getWildcardRegexp} from '@/utils/string-utils';
 
 export default {

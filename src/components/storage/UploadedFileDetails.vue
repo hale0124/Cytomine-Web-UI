@@ -79,7 +79,7 @@
 
 <script>
 import SlVueTree from 'sl-vue-tree';
-import {UploadedFile, UploadedFileCollection} from 'cytomine-client';
+import {UploadedFile, UploadedFileCollection} from '@hale0124/cytomine-client';
 import UploadedFileStatus from './UploadedFileStatus';
 import filesize from 'filesize';
 
