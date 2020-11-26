@@ -36,14 +36,14 @@
         <i class="fas fa-download"></i>
         {{ $t('storage') }}
       </router-link>
-      <router-link to="/ontology" class="navbar-item">
+      <!--<router-link to="/ontology" class="navbar-item">
         <i class="fas fa-hashtag"></i>
         {{ $t('ontologies') }}
       </router-link>
       <router-link to="/software" class="navbar-item">
         <i class="fas fa-code"></i>
         {{ $t('algorithms') }}
-      </router-link>
+      </router-link>-->
       <router-link v-if="currentUser.adminByNow" to="/admin" class="navbar-item">
         <i class="fas fa-wrench"></i>
         {{ $t('admin-menu') }}
