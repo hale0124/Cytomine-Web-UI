@@ -54,15 +54,13 @@
     </b-field>
     <b-field
       :key="'lifetime'"
-      :label="$t('lifetime')"
+      :label="$t('Lifetime')"
       horizontal
-      :type="{'is-danger': errors.has('lifetime')}"
-      :message="errors.first('lifetime')"
+      :type="text"
     >
       <b-input
         v-model="internalUser['lifetime']"
         :name="'lifetime'"
-        v-validate="'required'"
         :type="'text'"
       />    
 
@@ -156,7 +154,7 @@ export default {
         this.internalUser = this.user ? this.user.clone() : new User();
         this.selectedRole = this.user ? this.user.role : defaultRole;
         this.internalUser.language = this.user ? this.user.language : defaultLanguage.value;
-        this.internalUser.lifetime = this.user ? this.user.lifetime : 10;
+        this.internalUser.lifetime = this.user ? this.user.lifetime : 0;
         this.displayErrors = false;
       }
     }
