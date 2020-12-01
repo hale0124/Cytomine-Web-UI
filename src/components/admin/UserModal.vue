@@ -54,13 +54,15 @@
     </b-field>
     <b-field
       :key="'lifetime'"
-      :label="$t('Lifetime')"
+      :label="$t('lifetime')"
       horizontal
-      :type="text"
+      :type="{'is-danger': errors.has('lifetime')}"
+      :message="errors.first('lifetime')"
     >
       <b-input
         v-model="internalUser['lifetime']"
         :name="'lifetime'"
+        v-validate="'required'"
         :type="'text'"
       />    
 
@@ -134,6 +136,7 @@ export default {
       return [
         {field: 'firstname', validationRules: 'required'},
         {field: 'lastname', validationRules: 'required'},
+        {field: 'lifetime', validationRules: 'required'},
         //{field: 'username', validationRules: 'required'},
         {field: 'email', validationRules: 'required|email'},
         {field: 'password', validationRules: this.editionMode ? 'min:8' : 'required|min:8'}
@@ -204,7 +207,7 @@ export default {
   display: none;
 }
 
->>> .modal-card, >>> .modal-card-body {
+.modal-card, .modal-card-body {
   width: 100vw;
   max-width: 800px;
 }
