@@ -52,20 +52,7 @@
         :password-reveal="field === 'password'"
       />
     </b-field>
-    <b-field
-      :key="'lifetime'"
-      :label="$t('lifetime')"
-      horizontal
-      :type="{'is-danger': errors.has('lifetime')}"
-      :message="errors.first('lifetime')"
-    >
-      <b-input
-        v-model="internalUser['lifetime']"
-        :name="'lifetime'"
-        v-validate="'required'"
-        :type="'text'"
-      />    
-
+    
     <b-field :label="$t('role')" horizontal>
       <b-select v-model="selectedRole">
         <option v-for="(value, key) in roles" :value="key" :key="key">
