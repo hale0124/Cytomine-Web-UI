@@ -58,6 +58,7 @@
   <register v-else-if="registering" @close="registering=false" />
 
   <template v-else>
+    <vue-recaptcha sitekey="6LeTpA4aAAAAAFhPY_-cfBNfgG_RIncchWG-j5zP"></vue-recaptcha>
     <p class="panel-heading">
       <i class="fas fa-user" aria-hidden="true"></i>
       {{$t('login')}}
@@ -102,10 +103,15 @@ import {get} from '@/utils/store-helpers';
 import {changeLanguageMixin} from '@/lang.js';
 import {Cytomine} from '@hale0124/cytomine-client';
 import Register from './Register';
+import Vue from 'vue'
+import VueCookies from 'vue-cookies'
+import VueRecaptcha from 'vue-recaptcha';
+Vue.use(VueCookies)
+Vue.$cookies.config('1h')
 
 export default {
   name: 'login',
-  components: {Register},
+  components: {Register,Vue,VueRecaptcha},
   mixins: [changeLanguageMixin],
   data() {
     return {
@@ -137,6 +143,8 @@ export default {
           this.$notify({type: 'success', text: this.$t('notif-success-login')});
         }
         else {
+          var login_error = Vue.$cookies.get('login-error')
+          Vue.$cookies.set('login-error',login_error + 1);
           this.$notify({type: 'error', text: this.$t('notif-unexpected-error')});
         }
       }
